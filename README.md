@@ -1,6 +1,8 @@
- # Fetch Receipt Processor API
+# Fetch Receipt Processor API
  ## Command to run the docker containerized app
-`docker compose up`
+ Git clone the application to your system and open the terminal inside the application. Remove if any image with fetch_api exists.
+ Run `docker compose up` command
+ Use Postman or your preferred way to call the endpoints
 
 ## Implemented endpoint
 
