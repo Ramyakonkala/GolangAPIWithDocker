@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: fetch_api
+    build:
+      context: . # Use an image built from the specified dockerfile in the current directory.
+      dockerfile: dockerfile
+    ports:
+      - "8080:8080"
